@@ -1,0 +1,293 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    
+}
+
+.container{
+    width: 100%;
+    height: 1080px;
+}
+
+.header-container {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42372D;
+}
+
+.header-btn{
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 42px;
+}
+
+.header-btn1{
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 42px;
+    padding-left: 42px;
+}
+
+.header-btn2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list{
+    padding-left: 29px;
+}
+
+.contacts-container{
+    padding-left: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -330px;
+}
+
+.phone-img{
+    padding-right: 8px;
+}
+
+.contacts-text{
+    font-weight: 12px;
+    color: white;
+    font-weight: 300;
+}
+
+.cont-bread{
+    display: flex;
+    align-items: center;
+
+}
+
+.bread{
+    width: 500px;
+    padding-left: 16%;
+}
+
+.head-str{
+    padding-left: 3.35%;
+}
+
+ul.breadcrumb {
+    padding: 40px;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+    color: #42372D;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #888888;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0000008e;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #42372D;
+    text-decoration: underline;
+}
+
+.katalog-container{
+    display: flex;
+    justify-content: center;
+}
+
+.list-prod{
+    width: 296px;
+    height: 736px;
+    background-color: #EC6543;
+    flex-direction: column;
+}
+
+.list-title{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.line-list{
+    margin-bottom: 30px;
+}
+
+.list-product{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-left: 25px;
+}
+
+.list-card-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.card-list-container{
+    display: flex;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8{
+    width: 241px;
+    height: 277px;
+    border: #EC6543 solid 2px;
+    display: flex;
+    align-items: end;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.card1{
+    background-image: url("/img/card1.png");
+    margin-left: 15px;
+}
+
+.card2{
+    background-image: url("/img/card2.png");
+}
+
+.card3{
+    background-image: url("/img/card3.png");
+}
+
+.card4{
+    background-image: url("/img/card4.png");
+}
+
+.card5{
+    background-image: url("/img/card5.png");
+    margin-left: 15px;
+}
+
+.card6{
+    background-image: url("/img/card6.png");
+}
+
+.card7{
+    background-image: url("/img/card7.png");
+}
+
+.card8{
+    background-image: url("/img/card8.png");
+}
+
+.card-holder{
+    width: 241px;
+    height: 77px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-name{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-card{
+    width: 110px;
+    height: 24px;
+    color: white;
+    background-color: #EC6543;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 336px;
+    background-color: #1D1916;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 144px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 187px;
+    margin-top: -25px;
+}
+
+.footer-a-left{
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+    padding-top: 8px;
+}
+
+.footer-contacts{
+    padding-left: 349px;
+}
+
+.footer-email,
+.footer-phone{
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+}
+
+.arrow{
+    padding-left: 220px;
+}
+
+.footer-copyright{
+    position: absolute;
+    margin-top: 290px;
+    color: rgba(255, 255, 255, 0.3);
+}
